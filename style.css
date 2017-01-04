@@ -1,21 +1,30 @@
+html{
+  background: green;
+}
 h1{
+  color: white;
   font-family: helvetica;
 }
 
 h4{
-  color: #111;
-  /*background:black;*/
+  color: white;
+  background:green;
+  display:inline;
+  font-family:  monospace;
+  text-decoration: underline;
 
 }
 
 p{
-  color: lightgrey;
+  color: white;
+  background: green;
 }
 
 .more-content{
-  background-color: #0000FF
+  background-color:green;
+
 }
 
 #something-else{
-  border:5px dashed #FF0000
+  border:5px  #FF0000
 }
