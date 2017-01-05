@@ -4,6 +4,9 @@ html{
 h1{
   color: white;
   font-family: helvetica;
+  border: 5px;
+  border-style: dashed white;
+  text-align: center;
 }
 
 h4{
@@ -27,4 +30,14 @@ p{
 
 #something-else{
   border:5px  #FF0000
+}
+
+ul{
+  color: white;
+  font-family: cursive;
+}
+
+ol{
+  color: white;
+  font-family:sans-serif;
 }
