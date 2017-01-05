@@ -4,8 +4,6 @@ html{
 h1{
   color: white;
   font-family: helvetica;
-  border: 5px;
-  border-style: dashed white;
   text-align: center;
 }
 
@@ -15,6 +13,11 @@ h4{
   display:inline;
   font-family:  monospace;
   text-decoration: underline;
+
+}
+h3{
+  color: white;
+  font-family: helvetica;
 
 }
 
