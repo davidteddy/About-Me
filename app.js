@@ -1,5 +1,6 @@
 'use strict';
 
+
 var counter = 0;
 
 function begin(){
@@ -36,6 +37,7 @@ function aboutGame(){
   var userAnswer2 = prompt ('Is WOW fun?').toLowerCase();
   console.log('What the user answered:' + userAnswer2);
 
+
   if (userAnswer2 === 'yes' || userAnswer2 === 'y'){
     alert('Don\'t judge me!');
     counter ++;
@@ -48,6 +50,7 @@ function aboutGame(){
 function aboutHiking(){
   var userAnswer3 = prompt ('Do I like to hike for fun?').toLowerCase();
   console.log('What they think of me:' + userAnswer3);
+
 
   if (userAnswer3 === 'yes' || userAnswer3 === 'y'){
     alert('I want to hike more often');
@@ -83,6 +86,7 @@ function aboutCars(){
   }
   return userAnswer5;
 }
+
 
 function aboutGuess(){
   for(var index = 4; index > 0; index--){
