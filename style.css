@@ -31,6 +31,21 @@ p{
 
 }
 
+#educationGoals{
+  border: solid;
+  border-color: white;
+  border-radius: 100px;
+  display: inline-block;
+  padding: 15px;
+}
+
+#topTenList{
+  border:solid;
+  border-color: white;
+  border-radius: 100px;
+  display: inline-block;
+  padding: 15px;
+}
 #something-else{
   border:5px  #FF0000
 }
